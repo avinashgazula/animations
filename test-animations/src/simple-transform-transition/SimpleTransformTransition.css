@@ -1,0 +1,11 @@
+.box-content {
+    height: 56px;
+    width: 56px;
+    background: #fad655;
+    border-radius: 50%;
+    transition: transform 0.2s ease-in-out;
+}
+
+.box:hover .box-content {
+    transform: translateY(-20%);
+}
