@@ -1,22 +1,18 @@
-import { useState } from 'react';
 import './App.css';
-import SimpleTransformTransition from './simple-transform-transition/SimpleTransformTransition';
-import StackedComponent from './stacked-component/StackedComponent';
+// import StackedComponent from './stacked-component/StackedComponent';
+// import SimpleTransformTransition from './simple-transform-transition/SimpleTransformTransition';
+// import CardHoverComponent from './card-hover/CardHoverComponent';
+import DownloadArrowComponent from './download-arrow/DownloadArrowComponent';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      <div>
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        
-      </div>
-      <StackedComponent />
-      <SimpleTransformTransition />
-    </>
+    <div className="container">
+      {/* <StackedComponent /> */}
+      {/* <SimpleTransformTransition /> */}
+      {/* <CardHoverComponent /> */}
+      <DownloadArrowComponent />
+    </div>
   )
 }
 
